@@ -17,11 +17,11 @@ def newTaskInput():
     # print('New Input')
 
     try:
-        print()
-        task_id = int(input(Fore.LIGHTMAGENTA_EX + 'Enter Task Number : '))
+        print(Fore.LIGHTMAGENTA_EX)
+        task_id = int(input('Enter Task Number : '))
         topic = input('Enter Topic : ')
-        comment = input('Enter Comment : ' + Style.RESET_ALL)
-        print()
+        comment = input('Enter Comment : ')
+        print(Style.RESET_ALL)
         tableInsertion = '''INSERT INTO TaskList
                             (TASK_ID, TOPIC, COMMENT)
                             VALUES(?, ?, ?)'''
