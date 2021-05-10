@@ -1,7 +1,7 @@
 # Do-Some-Task
 A Todo application written in python that help's you to manage all your daily tasks.
 
-###ENJOY
+### ENJOY
 
 # REQUIREMENTS
 
